@@ -7,6 +7,5 @@ from
          on a.customer_id =b.customer_id where order_status!='canceled') table1
      group by customer_unique_id) table2
 where yearss is not null 
-group by yearss 
-order by yearss;
+group by yearss order by yearss;
 
