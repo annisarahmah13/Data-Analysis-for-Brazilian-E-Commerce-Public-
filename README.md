@@ -23,36 +23,36 @@ Dataset berasal dari https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 
   - Daftar angka density masing-masing seller state, density adalah pembagian jumlah customer dengan total order pada state tersebut. 
    
-   |seller_state|customer_num|total_penjualan|density|
-   |------------|------------|---------------|-------|
-   |AC          |1           |1              |1      |
-   |AM          |3           |3              |1      |
-   |PI          |12          |12             |1      |
-   |RO          |14          |14             |1      |
-   |MS          |48          |50             |0.96   |
-   |MA          |388         |405            |0.958  |
-   |PB          |36          |38             |0.9474 |
-   |MT          |137         |145            |0.9448 |
-   |CE          |88          |94             |0.9362 |
-   |RN          |51          |56             |0.9107 |
-   |DF          |814         |896            |0.9085 |
-   |PE          |404         |447            |0.9038 |
-   |SE          |9           |10             |0.9    |
-   |RS          |1,970       |2,193          |0.8983 |
-   |RJ          |4,294       |4,796          |0.8953 |
-   |SC          |3,627       |4,051          |0.8953 |
-   |MG          |7,793       |8,774          |0.8882 |
-   |GO          |458         |517            |0.8859 |
-   |PA          |7           |8              |0.875  |
-   |PR          |7,525       |8,638          |0.8712 |
-   |BA          |558         |641            |0.8705 |
-   |ES          |317         |372            |0.8522 |
-   |SP          |67,913      |79,947         |0.8495 |
+    |seller_state|customer_num|total_penjualan|density|
+    |------------|------------|---------------|-------|
+    |AC          |1           |1              |1      |
+    |AM          |3           |3              |1      |
+    |PI          |12          |12             |1      |
+    |RO          |14          |14             |1      |
+    |MS          |48          |50             |0.96   |
+    |MA          |388         |405            |0.958  |
+    |PB          |36          |38             |0.9474 |
+    |MT          |137         |145            |0.9448 |
+    |CE          |88          |94             |0.9362 |
+    |RN          |51          |56             |0.9107 |
+    |DF          |814         |896            |0.9085 |
+    |PE          |404         |447            |0.9038 |
+    |SE          |9           |10             |0.9    |
+    |RS          |1,970       |2,193          |0.8983 |
+    |RJ          |4,294       |4,796          |0.8953 |
+    |SC          |3,627       |4,051          |0.8953 |
+    |MG          |7,793       |8,774          |0.8882 |
+    |GO          |458         |517            |0.8859 |
+    |PA          |7           |8              |0.875  |
+    |PR          |7,525       |8,638          |0.8712 |
+    |BA          |558         |641            |0.8705 |
+    |ES          |317         |372            |0.8522 |
+    |SP          |67,913      |79,947         |0.8495 |
   - 
-   |product_category_name        |product_category_name_english|total_selling|
-   |-----------------------------|-----------------------------|-------------|
-   |beleza_saude                 |health_beauty                |9,670        |
-   |fashion_roupa_infanto_juvenil|fashion_childrens_clothes    |8            |
+    |product_category_name        |product_category_name_english|total_selling|
+    |-----------------------------|-----------------------------|-------------|
+    |beleza_saude                 |health_beauty                |9,670        |
+    |fashion_roupa_infanto_juvenil|fashion_childrens_clothes    |8            |
 
 
  
