@@ -15,6 +15,35 @@ Dataset berasal dari https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
  
  Pada project kali ini akan dilakukan beberapa analisis untuk lebih memahami penjualan yang terjadi pada Olist Store yang nantinya dapat digunakan untuk melakukan pengambilan strategi bisnis yang sesuai. 
  - Total customer/ user pada setiap tahun dan growth percentage dari awal tahun hingga akhir
- <img width="242" alt="image" src="https://user-images.githubusercontent.com/49335273/222620194-d4fb2f69-e4fc-40e3-ad9e-a4dd8c25f0ca.png">
+   <img width="242" alt="image" src="https://user-images.githubusercontent.com/49335273/222620194-d4fb2f69-e4fc-40e3-ad9e-a4dd8c25f0ca.png">
+  - Daftar angka density masing-masing seller state, density adalah pembagian jumlah customer dengan total order pada state tersebut. 
+   |seller_state|customer_num|total_penjualan|density|
+   |------------|------------|---------------|-------|
+   |AC          |1           |1              |1      |
+   |AM          |3           |3              |1      |
+   |PI          |12          |12             |1      |
+   |RO          |14          |14             |1      |
+   |MS          |48          |50             |0.96   |
+   |MA          |388         |405            |0.958  |
+   |PB          |36          |38             |0.9474 |
+   |MT          |137         |145            |0.9448 |
+   |CE          |88          |94             |0.9362 |
+   |RN          |51          |56             |0.9107 |
+   |DF          |814         |896            |0.9085 |
+   |PE          |404         |447            |0.9038 |
+   |SE          |9           |10             |0.9    |
+   |RS          |1,970       |2,193          |0.8983 |
+   |RJ          |4,294       |4,796          |0.8953 |
+   |SC          |3,627       |4,051          |0.8953 |
+   |MG          |7,793       |8,774          |0.8882 |
+   |GO          |458         |517            |0.8859 |
+   |PA          |7           |8              |0.875  |
+   |PR          |7,525       |8,638          |0.8712 |
+   |BA          |558         |641            |0.8705 |
+   |ES          |317         |372            |0.8522 |
+   |SP          |67,913      |79,947         |0.8495 |
+  - 
+   <img width="318" alt="image" src="https://user-images.githubusercontent.com/49335273/222631308-9fd75017-1daf-40fb-9f26-9410a4ca071f.png">
+
 
  
