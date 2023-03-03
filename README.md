@@ -58,11 +58,11 @@ Dataset berasal dari https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
     
   - Presentasi jumlah produk yang terkirim sesuai jadwal, telat, atau terlalu cepat dari jadwal
   
-   |status_delivery|product_num|order_num|percentage_order|
-   |---------------|-----------|---------|----------------|
-   |Faster         |101,475    |88,644   |91.88           |
-   |Late           |7,264      |6,534    |6.77            |
-   |On Scedule     |1,458      |1,300    |1.35            |
+    |status_delivery|product_num|order_num|percentage_order|
+    |---------------|-----------|---------|----------------|
+    |Faster         |101,475    |88,644   |91.88           |
+    |Late           |7,264      |6,534    |6.77            |
+    |On Scedule     |1,458      |1,300    |1.35            |
    
 - Keterlambatan pengiriman 
    |review_score|status_delivery|total_product|total_order|
