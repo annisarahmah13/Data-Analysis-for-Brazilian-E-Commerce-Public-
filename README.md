@@ -12,3 +12,9 @@ Dataset berasal dari https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 - olist_products_dataset memberikan informasi terkait produk yang terjual di Olist Store.
 - olist_sellers_dataset berisi informasi seller yang memasok product di Olist store dan lokasinya, sebagai identifikasi seller pada setiap product.
 - product_category_name_translation terjemahan product_category_name ke inggris.
+ 
+ Pada project kali ini akan dilakukan beberapa analisis untuk lebih memahami penjualan yang terjadi pada Olist Store yang nantinya dapat digunakan untuk melakukan pengambilan strategi bisnis yang sesuai. 
+ - Total customer/ user pada setiap tahun dan growth percentage dari awal tahun hingga akhir
+ <img width="242" alt="image" src="https://user-images.githubusercontent.com/49335273/222620194-d4fb2f69-e4fc-40e3-ad9e-a4dd8c25f0ca.png">
+
+ 
