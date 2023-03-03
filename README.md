@@ -15,7 +15,12 @@ Dataset berasal dari https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
  
  Pada project kali ini akan dilakukan beberapa analisis untuk lebih memahami penjualan yang terjadi pada Olist Store yang nantinya dapat digunakan untuk melakukan pengambilan strategi bisnis yang sesuai. 
  - Total customer/ user pada setiap tahun dan growth percentage dari awal tahun hingga akhir
-  <img width="242" alt="image" src="https://user-images.githubusercontent.com/49335273/222620194-d4fb2f69-e4fc-40e3-ad9e-a4dd8c25f0ca.png">
+   |yearss|total_customer|growth_percentage|
+   |------|--------------|-----------------|
+   |2,016 |299           |0                |
+   |2,017 |43,395        |99.31            |
+   |2,018 |51,849        |16.31            |
+
   - Daftar angka density masing-masing seller state, density adalah pembagian jumlah customer dengan total order pada state tersebut. 
    
    |seller_state|customer_num|total_penjualan|density|
