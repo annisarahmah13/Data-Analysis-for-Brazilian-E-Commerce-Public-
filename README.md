@@ -48,18 +48,23 @@ Dataset berasal dari https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
     |BA          |558         |641            |0.8705 |
     |ES          |317         |372            |0.8522 |
     |SP          |67,913      |79,947         |0.8495 |
-  - 
+  
+  - Produk dengan penjualan tertinggi kedua dan penjualan terendah kedua
+  
     |product_category_name        |product_category_name_english|total_selling|
     |-----------------------------|-----------------------------|-------------|
     |beleza_saude                 |health_beauty                |9,670        |
     |fashion_roupa_infanto_juvenil|fashion_childrens_clothes    |8            |
-  -
+    
+  -Presentasi jumlah produk yang terkirim sesuai jadwal, telat, atau terlalu cepat dari jadwal
+  
    |status_delivery|product_num|order_num|percentage_order|
    |---------------|-----------|---------|----------------|
    |Faster         |101,475    |88,644   |91.88           |
    |Late           |7,264      |6,534    |6.77            |
    |On Scedule     |1,458      |1,300    |1.35            |
--
+   
+- Keterlambatan pengiriman 
    |review_score|status_delivery|total_product|total_order|
    |------------|---------------|-------------|-----------|
    |1           |Faster         |6,802        |4,625      |
