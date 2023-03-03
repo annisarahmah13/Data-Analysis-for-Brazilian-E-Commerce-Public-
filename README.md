@@ -44,7 +44,10 @@ Dataset berasal dari https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
    |ES          |317         |372            |0.8522 |
    |SP          |67,913      |79,947         |0.8495 |
   - 
-   <img width="318" alt="image" src="https://user-images.githubusercontent.com/49335273/222631308-9fd75017-1daf-40fb-9f26-9410a4ca071f.png">
+   |product_category_name        |product_category_name_english|total_selling|
+   |-----------------------------|-----------------------------|-------------|
+   |beleza_saude                 |health_beauty                |9,670        |
+   |fashion_roupa_infanto_juvenil|fashion_childrens_clothes    |8            |
 
 
  
