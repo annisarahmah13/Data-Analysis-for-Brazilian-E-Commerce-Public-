@@ -53,6 +53,32 @@ Dataset berasal dari https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
     |-----------------------------|-----------------------------|-------------|
     |beleza_saude                 |health_beauty                |9,670        |
     |fashion_roupa_infanto_juvenil|fashion_childrens_clothes    |8            |
+  -
+   |status_delivery|product_num|order_num|percentage_order|
+   |---------------|-----------|---------|----------------|
+   |Faster         |101,475    |88,644   |91.88           |
+   |Late           |7,264      |6,534    |6.77            |
+   |On Scedule     |1,458      |1,300    |1.35            |
+-
+   |review_score|status_delivery|total_product|total_order|
+   |------------|---------------|-------------|-----------|
+   |1           |Faster         |6,802        |4,625      |
+   |2           |Faster         |2,386        |1,848      |
+   |3           |Faster         |6,493        |5,545      |
+   |4           |Faster         |15,858       |14,189     |
+   |5           |Faster         |48,204       |43,270     |
+   |1           |Late           |3,044        |2,689      |
+   |2           |Late           |462          |425        |
+   |3           |Late           |595          |549        |
+   |4           |Late           |557          |512        |
+   |5           |Late           |908          |811        |
+   |1           |On Scedule     |119          |89         |
+   |2           |On Scedule     |42           |37         |
+   |3           |On Scedule     |156          |140        |
+   |4           |On Scedule     |253          |230        |
+   |5           |On Scedule     |567          |510        |
+
+
 
 
  
