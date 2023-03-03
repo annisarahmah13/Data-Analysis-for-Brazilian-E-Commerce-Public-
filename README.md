@@ -14,7 +14,7 @@ Dataset berasal dari https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 - product_category_name_translation terjemahan product_category_name ke inggris.
  
  Pada project kali ini akan dilakukan beberapa analisis untuk lebih memahami penjualan yang terjadi pada Olist Store yang nantinya dapat digunakan untuk melakukan pengambilan strategi bisnis yang sesuai. 
- - Total customer/ user pada setiap tahun dan growth percentage dari awal tahun hingga akhir
+ - Total customer/ user pada setiap tahun dan growth percentage dari awal tahun hingga akhir, growth percentage tertinggi yaitu pada tahun 2017 dari jumlah customer 299 naik menjadi 43.395.
    |yearss|total_customer|growth_percentage|
    |------|--------------|-----------------|
    |2,016 |299           |0                |
@@ -64,7 +64,7 @@ Dataset berasal dari https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
     |Late           |7,264      |6,534    |6.77            |
     |On Scedule     |1,458      |1,300    |1.35            |
    
-- Keterlambatan pengiriman 
+- Keterlambatan pengiriman berpengaruh dengan review score dapat dilihat pada tabel dibawah bahwa total product dan total order juga tidak terpengaruh dengan status delivery apakah faster, late atau on scedule 
    |review_score|status_delivery|total_product|total_order|
    |------------|---------------|-------------|-----------|
    |1           |Faster         |6,802        |4,625      |
