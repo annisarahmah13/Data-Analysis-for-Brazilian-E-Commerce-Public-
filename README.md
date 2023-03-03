@@ -56,7 +56,7 @@ Dataset berasal dari https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
     |beleza_saude                 |health_beauty                |9,670        |
     |fashion_roupa_infanto_juvenil|fashion_childrens_clothes    |8            |
     
-  -Presentasi jumlah produk yang terkirim sesuai jadwal, telat, atau terlalu cepat dari jadwal
+  - Presentasi jumlah produk yang terkirim sesuai jadwal, telat, atau terlalu cepat dari jadwal
   
    |status_delivery|product_num|order_num|percentage_order|
    |---------------|-----------|---------|----------------|
