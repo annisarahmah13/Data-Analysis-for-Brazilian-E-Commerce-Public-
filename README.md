@@ -14,16 +14,18 @@ Dataset berasal dari https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 - product_category_name_translation terjemahan product_category_name ke inggris.
  
  Pada project kali ini akan dilakukan beberapa analisis untuk lebih memahami penjualan yang terjadi pada Olist Store yang nantinya dapat digunakan untuk melakukan pengambilan strategi bisnis yang sesuai. 
+ 
  - Total customer/ user pada setiap tahun dan growth percentage dari awal tahun hingga akhir, growth percentage tertinggi yaitu pada tahun 2017 dari jumlah customer 299 naik menjadi 43.395.
+ 
    |yearss|total_customer|growth_percentage|
    |------|--------------|-----------------|
    |2,016 |299           |0                |
    |2,017 |43,395        |99.31            |
    |2,018 |51,849        |16.31            |
 
-  - Daftar angka density masing-masing seller state, density adalah pembagian jumlah customer dengan total order pada state tersebut. 
+  - Daftar angka density masing-masing seller state, density adalah pembagian jumlah customer dengan total order pada state tersebut. Seller yang memiliki density oder tertinggi yaitu seller AC, AM, PI, dan RO dengan nilai density 1, namun jika dilihat dari total customer dan total order maka ketiga seller tersebut bukan pilihan yang baik untuk area warehouse karena jumlah customer dan total order relatif rendah. Perlu dilakukan analisa dan strategi bisnis untuk meningkatkan jumlah customer dan total order diketiga seller tersebut.
    
-    |seller_state|customer_num|total_penjualan|density|
+    |seller_state|customer_num| total_order   |density|
     |------------|------------|---------------|-------|
     |AC          |1           |1              |1      |
     |AM          |3           |3              |1      |
@@ -49,14 +51,14 @@ Dataset berasal dari https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
     |ES          |317         |372            |0.8522 |
     |SP          |67,913      |79,947         |0.8495 |
   
-  - Produk dengan penjualan tertinggi kedua dan penjualan terendah kedua
+  - Produk dengan penjualan tertinggi kedua yaitu beleza saude dan penjualan terendah kedua yaitu fashion roupa infanto juvenil.
   
     |product_category_name        |product_category_name_english|total_selling|
     |-----------------------------|-----------------------------|-------------|
     |beleza_saude                 |health_beauty                |9,670        |
     |fashion_roupa_infanto_juvenil|fashion_childrens_clothes    |8            |
     
-  - Presentasi jumlah produk yang terkirim sesuai jadwal, telat, atau terlalu cepat dari jadwal
+  - Jumlah produk yang terlambat dikirimkan dari jadwal sebanyak 7.264 dengan jumlah order sebanyak 6.534. Presentasi order tertinggi yaitu order yang dikirimkan lebih cepat dari jadwal pengiriman, dan presentasi order yang telat dikirimkan tidak terlalu tinggi yaitu sebesar 6,77 persen.
   
     |status_delivery|product_num|order_num|percentage_order|
     |---------------|-----------|---------|----------------|
@@ -65,6 +67,7 @@ Dataset berasal dari https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
     |On Scedule     |1,458      |1,300    |1.35            |
    
 - Keterlambatan pengiriman berpengaruh dengan review score dapat dilihat pada tabel dibawah bahwa total product dan total order juga tidak terpengaruh dengan status delivery apakah faster, late atau on scedule 
+
    |review_score|status_delivery|total_product|total_order|
    |------------|---------------|-------------|-----------|
    |1           |Faster         |6,802        |4,625      |
