@@ -66,7 +66,7 @@ Dataset berasal dari https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
     |Late           |7,264      |6,534    |6.77            |
     |On Scedule     |1,458      |1,300    |1.35            |
    
-- Keterlambatan pengiriman berpengaruh dengan review score dapat dilihat pada tabel dibawah bahwa total product dan total order juga tidak terpengaruh dengan status delivery apakah faster, late atau on scedule 
+- Analisis apakah keterlambatan pengiriman berpengaruh terhadap review score yang diberikan customer, dilihat dari tabel produk yang terjual dan jumlah pesanan berdasarkan status delivery dan review score terlihat bahwa review score terbanyak pada pemesanan dengan delivery status late yaitu 1 dan pada delivery status faster yaitu pada review score 5.
 
    |review_score|status_delivery|total_product|total_order|
    |------------|---------------|-------------|-----------|
@@ -86,7 +86,47 @@ Dataset berasal dari https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
    |4           |On Scedule     |253          |230        |
    |5           |On Scedule     |567          |510        |
 
+Untuk lebih menguatkan argumen yang didapat dari tabel diatas maka dilakukan analisis untuk setiap status delivery berdasarkan presentasi pemesanan untuk setiap review scorenya.
 
+  |status_delivery|total_product|total_order|         
+  |---------------|-------------|-----------|
+  |Faster         |79,743       |69,379     |
+  |Late           |5,566        |4,980      |
+  |On Scedule     |1,137        |1,001      |
+  
+  |review_score|status_delivery|total_product_pct|total_order_pct|
+  |------------|---------------|-----------------|---------------|
+  |1           |Faster         |0.0853           |0.0667         |
+  |2           |Faster         |0.0299           |0.0266         |
+  |3           |Faster         |0.0814           |0.0799         |
+  |4           |Faster         |0.1989           |0.2045         |
+  |5           |Faster         |0.6045           |0.6237         |
+  
+  |review_score|status_delivery|total_product_pct|total_order_pct|
+  |------------|---------------|-----------------|---------------|
+  |1           |Late           |0.5469           |0.54           |
+  |2           |Late           |0.083            |0.0853         |
+  |3           |Late           |0.1069           |0.1102         |
+  |4           |Late           |0.1001           |0.1028         |
+  |5           |Late           |0.1631           |0.1629         |
+  
+  |review_score|status_delivery|total_product_pct|total_order_pct|
+  |------------|---------------|-----------------|---------------|
+  |1           |On Scedule     |0.1047           |0.0889         |
+  |2           |On Scedule     |0.0369           |0.037          |
+  |3           |On Scedule     |0.1372           |0.1399         |
+  |4           |On Scedule     |0.2225           |0.2298         |
+  |5           |On Scedule     |0.4987           |0.5095         |
+  
+Dari ketiga tabel presentasi pemesanan untuk setiap status delivery dan review score maka dapat dilihat bahwa pada pemesanan dengan status delivery faster presentase tertinggi yaitu pada review score 5 sebesar 0.6 penjualan dan pada pemesanan dengan status delivery late presentase teringgi dengan review score 1 sedangkan pada pemesanan dengan status delivery on scedule presentase terbesar pada review score 5. sehingga dapat disimpulkan bahwa status delivery mempengaruhi review score yang diberikan oleh customer.
+
+
+  
+
+
+  
+  
+  
 
 
  
